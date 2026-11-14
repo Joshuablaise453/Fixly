@@ -604,6 +604,104 @@ object FaIcons {
             close()
         }
     }
+
+    val Google: ImageVector = createFaVector("FaGoogle") {
+        path(fill = SolidColor(Color(0xFF4285F4))) {
+            moveTo(23.745f, 12.27f)
+            curveToRelative(0f, -0.7f, -0.06f, -1.4f, -0.19f, -2.07f)
+            horizontalLineTo(12f)
+            verticalLineToRelative(4.51f)
+            horizontalLineToRelative(6.6f)
+            curveToRelative(-0.29f, 1.52f, -1.14f, 2.82f, -2.4f, 3.68f)
+            verticalLineToRelative(3.05f)
+            horizontalLineToRelative(3.88f)
+            curveToRelative(2.27f, -2.09f, 3.665f, -5.17f, 3.665f, -9.17f)
+            close()
+        }
+        path(fill = SolidColor(Color(0xFF34A853))) {
+            moveTo(12f, 24f)
+            curveToRelative(3.24f, 0f, 5.95f, -1.08f, 7.93f, -2.91f)
+            lineToRelative(-3.88f, -3.05f)
+            curveToRelative(-1.08f, 0.72f, -2.45f, 1.16f, -4.05f, 1.16f)
+            curveToRelative(-3.12f, 0f, -5.77f, -2.11f, -6.72f, -4.96f)
+            horizontalLineTo(1.29f)
+            verticalLineToRelative(3.14f)
+            curveTo(3.26f, 21.3f, 7.31f, 24f, 12f, 24f)
+            close()
+        }
+        path(fill = SolidColor(Color(0xFFFBBC05))) {
+            moveTo(5.28f, 14.24f)
+            curveToRelative(-0.24f, -0.72f, -0.38f, -1.49f, -0.38f, -2.24f)
+            curveToRelative(0f, -0.75f, 0.14f, -1.52f, 0.38f, -2.24f)
+            verticalLineTo(6.62f)
+            horizontalLineTo(1.29f)
+            curveTo(0.47f, 8.24f, 0f, 10.06f, 0f, 12f)
+            curveToRelative(0f, 1.94f, 0.47f, 3.76f, 1.29f, 5.38f)
+            lineToRelative(3.99f, -3.14f)
+            close()
+        }
+        path(fill = SolidColor(Color(0xFFEA4335))) {
+            moveTo(12f, 4.75f)
+            curveToRelative(1.77f, 0f, 3.35f, 0.61f, 4.6f, 1.8f)
+            lineToRelative(3.42f, -3.42f)
+            curveTo(17.94f, 1.19f, 15.24f, 0f, 12f, 0f)
+            curveTo(7.31f, 0f, 3.26f, 2.7f, 1.29f, 6.62f)
+            lineToRelative(3.99f, 3.14f)
+            curveTo(6.23f, 6.86f, 8.88f, 4.75f, 12f, 4.75f)
+            close()
+        }
+    }
+
+    val Facebook: ImageVector = createFaVector("FaFacebook") {
+        path(fill = SolidColor(Color(0xFF1877F2))) {
+            moveTo(24f, 12f)
+            curveTo(24f, 5.37f, 18.63f, 0f, 12f, 0f)
+            curveTo(5.37f, 0f, 0f, 5.37f, 0f, 12f)
+            curveTo(0f, 17.98f, 4.39f, 22.94f, 10.12f, 23.84f)
+            verticalLineTo(15.46f)
+            horizontalLineTo(7.08f)
+            verticalLineTo(12f)
+            horizontalLineTo(10.12f)
+            verticalLineTo(9.36f)
+            curveTo(10.12f, 6.35f, 11.91f, 4.69f, 14.66f, 4.69f)
+            curveTo(15.98f, 4.69f, 17.36f, 4.93f, 17.36f, 4.93f)
+            verticalLineTo(7.89f)
+            horizontalLineTo(15.84f)
+            curveTo(14.35f, 7.89f, 13.88f, 8.82f, 13.88f, 9.77f)
+            verticalLineTo(12f)
+            horizontalLineTo(17.22f)
+            lineTo(16.69f, 15.46f)
+            horizontalLineTo(13.88f)
+            verticalLineTo(23.84f)
+            curveTo(19.61f, 22.94f, 24f, 17.98f, 24f, 12f)
+            close()
+        }
+    }
+
+    val Apple: ImageVector = createFaVector("FaApple") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(18.71f, 19.5f)
+            curveToRelative(-0.83f, 1.24f, -1.71f, 2.45f, -3.05f, 2.47f)
+            curveToRelative(-1.34f, 0.03f, -1.77f, -0.79f, -3.29f, -0.79f)
+            curveToRelative(-1.53f, 0f, -2f, 0.77f, -3.27f, 0.82f)
+            curveToRelative(-1.31f, 0.05f, -2.3f, -1.32f, -3.14f, -2.53f)
+            curveToRelative(-1.72f, -2.48f, -3.03f, -7.01f, -1.27f, -10.07f)
+            curveToRelative(0.87f, -1.52f, 2.43f, -2.48f, 4.12f, -2.51f)
+            curveToRelative(1.28f, -0.02f, 2.5f, 0.87f, 3.29f, 0.87f)
+            curveToRelative(0.78f, 0f, 2.26f, -1.07f, 3.81f, -0.91f)
+            curveToRelative(0.65f, 0.03f, 2.47f, 0.26f, 3.64f, 1.98f)
+            curveToRelative(-0.09f, 0.06f, -2.17f, 1.28f, -2.15f, 3.81f)
+            curveToRelative(0.03f, 3.02f, 2.65f, 4.03f, 2.68f, 4.04f)
+            curveToRelative(-0.03f, 0.07f, -0.42f, 1.44f, -1.37f, 2.82f)
+            close()
+            moveTo(15.97f, 4.17f)
+            curveToRelative(0.58f, -0.71f, 0.98f, -1.69f, 0.86f, -2.67f)
+            curveToRelative(-0.84f, 0.03f, -1.88f, 0.56f, -2.48f, 1.26f)
+            curveToRelative(-0.54f, 0.62f, -1.01f, 1.63f, -0.88f, 2.6f)
+            curveToRelative(0.94f, 0.07f, 1.92f, -0.47f, 2.5f, -1.19f)
+            close()
+        }
+    }
 }
 
 @Composable

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.electrohub.fixly" />
+                  <option name="mobileSdkAppId" value="1:750957886740:android:7d3996d3c3f22572071601" />
+                  <option name="projectId" value="fixly-app-v1" />
+                  <option name="projectNumber" value="750957886740" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
